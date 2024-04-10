@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="sform" onsubmit="handleFormSubmit(event)">
+    <label>
+        Choose expense Amount:<input type="number" id="exp_amt">
+    </label>
+    <label>
+        Choose description:<input type="text" id="exp_des">
+    </label>
+    <label>
+        Choose Category:<select id="exp_cat">
+            <option>Movies</option>
+            <option>Fuel</option>
+            <option>Snacks</option>
+        </select>
+    </label>
+    
+    <label>
+       <button type="submit">Add Expense</button>
+    </label>
+</form>
+<ul>
+</ul>
+</body>
+<script src="expenseTracker.js"></script>
+</html>
